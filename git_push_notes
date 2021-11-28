@@ -1,0 +1,19 @@
+https://blog.reviewnb.com/github-jupyter-notebook/
+https://www.devdungeon.com/content/working-git-repositories-python
+https://www.liquidweb.com/kb/committing-pushing-github-ubuntu-18-04/
+https://stackoverflow.com/questions/36890139/how-to-push-to-git-from-terminal-command-line
+
+cd git_environment
+
+git clone https://github.com/YumYumYumi/python_.git
+
+cp /home/hm/MET3/SpatialPython2021/notebooks/03_Vector_data.ipynb /home/hm/git_environment/python_/
+
+cd /home/hm/git_environment/python_
+git status
+git add 03_Vector_data.ipynb
+git commit -m "Add 3.Lecture note"
+git push
+
+
+ git push -u origin master
